@@ -1,0 +1,319 @@
+* {
+    margin-top: 0;
+    margin: 0;
+}
+
+.first {
+    background-color: rgb(255, 255, 255);
+    height: 530px;
+    width: 60%;
+    position: relative;
+}
+
+.logo {
+    height: 125px;
+    width: 200px;
+    transition: transform .3s cubic-bezier(.23, 1, .32, 1) 0ms;
+    position: absolute;
+    left: 160px;
+    opacity: 1;
+    fill: #fc8019;
+    margin-top: 92px;
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.signup {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    line-height: 40px;
+    left: 670px;
+    top: 70px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.login {
+    position: absolute;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    left: 600px;
+    top: 80px;
+    font-weight: bold;
+
+}
+.login:hover {
+    color: #fc8019;
+}
+
+.head {
+    position: absolute;
+    left: 170px;
+    top: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #282c3f;
+
+}
+
+.head2 {
+    position: absolute;
+    left: 170px;
+    top: 250px;
+    font-style: normal;
+    color: #686b78;
+}
+
+.txtmain {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 170px;
+    background-color: #ffffff;
+    border-color: rgb(255, 157, 0);
+
+}
+.lctme{
+    position: absolute;
+    font-size: small;
+    left: 511px;
+    top: 320px;
+    cursor: pointer;
+    color: #686b78;
+    
+}
+
+.food {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 570px;
+    background-color: rgb(219, 143, 21);
+    border-color: #000;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.citys {
+    position: absolute;
+    left: 170px;
+    top: 420px;
+    font-style: normal;
+    color: #686b78;
+}
+
+.contry {
+    position: absolute;
+    left: 170px;
+    top: 450px;
+    font-style: normal;
+    color: #686b78;
+}
+
+.image {
+    position: absolute;
+    left: calc(55%);
+    right: 0;
+    background-repeat: no-repeat;
+    height: 530px;
+    background-size: cover;
+    background-position: 100%;
+    top: 0;
+    background-color: rgba(182, 178, 175, 0.2);
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
+}
+
+
+
+.frametre {
+    display: flex;
+    padding-bottom: 80px;
+    max-width: 100%;
+    height: 250px;
+    background-color: rgb(44, 30, 25);
+
+}
+
+.state {
+    padding-top: 30px;
+    padding-left: 100px;
+    color: black;
+
+
+}
+
+.img1 {
+    display: inline;
+    padding-left: 100px;
+
+}
+
+.a {
+    color: aliceblue;
+    display: inline;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.a1 {
+    color: aliceblue;
+    display: block;
+    padding-left: 30px;
+}
+
+.img2 {
+    display: inline;
+    padding-left: 300px;
+
+}
+
+.b {
+    color: aliceblue;
+    display: block;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.b1 {
+    color: aliceblue;
+    display: block;
+    padding-left: 20px;
+}
+
+.img3 {
+    display: inline;
+    padding-left: 350px;
+
+}
+
+.frame3 {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    position: relative;
+}
+
+.phoneimage {
+    height: 500px;
+    width: 350px;
+    padding-top: 0px;
+    padding-left: 700px;
+    position: absolute;
+}
+
+.phoneimage1 {
+    height: 400px;
+    width: 350px;
+    top: 100px;
+    right: 30px;
+    position: absolute;
+
+}
+
+.dis {
+    position: absolute;
+    width: 200px;
+    top: 150px;
+    left: 200px;
+
+}
+
+.subdis {
+    position: absolute;
+    width: 1000px;
+    top: 250px;
+    left: 200px;
+}
+
+#os {
+    position: absolute;
+    top: 300px;
+    width: 3cm;
+    height: 1cm;
+    left: 200px;
+}
+
+#os2 {
+    position: absolute;
+    top: 300px;
+    width: 3cm;
+    height: 1cm;
+    left: 320px;
+}
+
+.frame4 {
+    width: 100%;
+    height: 500px;
+    background-color:black;
+}
+.frsrow{
+    display: flex;
+    height: 400px;
+    background-color:black;
+}
+.list1{
+    list-style: none;
+    padding-left: 150px;
+    padding-top: 50px;
+    color: white;
+}
+.companylist{
+    margin-bottom: 10px;
+}
+.listhead{
+    margin-bottom: 30px;
+    color: rgb(229, 229, 229);
+}
+.list2{
+    list-style: none;
+    padding-left: 270px;
+    padding-top: 50px;
+    color: white;
+}
+.list3{
+    list-style: none;
+    padding-left: 270px;
+    padding-top: 50px;
+    color: white;
+}
+.list4{
+    list-style: none;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.lasticon{
+    display: flex;
+}
+.hr{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.swigyicon{
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.swigy{
+    margin-top: 30px;
+    margin-left: 400px;
+    color: white;
+}
+.sociallogo{
+margin-top :30px;
+padding-left: 400px;
+margin-left: 20px;
+}
+.faceimage{
+    margin-left: 20px;
+}
